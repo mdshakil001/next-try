@@ -5,6 +5,7 @@ const Banner = () => {
   return (
       <div className={ styles.container}>
           <img className={styles.banner} src="./images/main_banner.jpg" alt="logo" />
+kire mama
           
       <div className={styles.subImg }>
           <img className={styles.banner} src="./images/box_1_paperclip.jpg" alt="logo" />
