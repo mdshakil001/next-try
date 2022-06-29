@@ -1,0 +1,9 @@
+.rest{
+    margin: 0rem 1rem ;
+}
+.fixed{
+    position: sticky;
+    top: 0rem;
+    z-index: 5000000;
+    background-color: #fff;
+}

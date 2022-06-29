@@ -1,0 +1,35 @@
+.container{
+    width: 100%;
+    /* height: 50vh; */
+    /* background-color: aquamarine; */
+}
+.allImages{
+    display: flex;
+    flex-direction: column;
+}
+.allImages img {
+    width: 70px;
+    height: 70px;
+    border: 1px solid rgba(0, 0, 0, 0.487);
+    margin-bottom: .5rem;
+    padding: .1rem;
+    cursor: pointer;
+}
+.imageDetails{
+    display: flex;
+}
+.mainImage img {
+    width: 500px;
+    height: 600px;
+    margin-left: 1rem;
+}
+/* .mainImage img:hover{
+    transform: scale(1.1);
+    transition: 1s;
+} */
+
+.imageText{
+    display: flex;
+    justify-content: space-between;
+    /* background-color: aquamarine; */
+}

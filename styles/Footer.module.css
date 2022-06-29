@@ -1,0 +1,134 @@
+.container{
+    margin-top: 5rem;
+    /* position: absolute; */
+    z-index: -10;
+}
+.headline{
+    font-weight: 300;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 8px;
+}
+.subHeadline{
+    font-weight: 300;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 2rem;
+}
+.icons{
+    display: flex;
+    justify-content: space-evenly;
+    /* background-color: aqua; */
+    margin-top: 2rem;
+}
+.icon{
+    /* background-color: blueviolet; */
+    margin-left: 30%;
+    
+}
+.btn{
+    cursor: pointer;
+    padding: 1rem 2.5rem;
+    font-size: 1rem;
+    /* margin-left: 45%; */
+    /* text-align: center; */
+    /* background-color: aqua; */
+    position: relative;
+    left: 45%;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+.cards{
+    display: flex;
+    overflow-y: hidden;
+    cursor: pointer;
+}
+.card{
+    margin-right: .5rem;
+}
+.reviewText{
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 15px;
+    font-weight: 300;
+}
+.trust{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aqua; */
+    margin-top: -1.5rem;
+}
+.trust h4 {
+    font-weight: 400;
+}
+.order{
+    text-align: center;
+    /* background-color: aqua; */
+    margin-top: -2.5rem;
+}
+.order .title{
+    font-size: 30px;
+}
+.order .form{
+    margin-top: 1rem;
+}
+.order .form input{
+    padding: .5rem 1.5rem;
+}
+.order .form button{
+    padding: .5rem 2rem;
+    margin-left: 1rem;
+    color: aliceblue;
+    background-color: #000;
+    cursor: pointer;
+
+}
+/* '#00b67a' */
+
+.starTry{
+    width: 20px;
+    height: 20px;
+    /* background-color: #00b67a; */
+    background-color: transparent;
+    position: relative;
+    margin-right: .1rem;
+}
+.starTry .icon{
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+}
+
+.footerMenu{
+    display: flex;
+    /* background-color: aquamarine; */
+    justify-content: space-between;
+    align-items: flex-start;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.431);
+}
+.footerMenu .icons{
+    /* background-color: antiquewhite; */
+    display: flex;
+    margin-right: 1rem;
+    margin-top: 1.5rem;
+}
+.iconnn{
+    margin-right: 2rem;
+}
+.footerLast{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: aqua; */
+}
+.footerImages img {
+    width: 35px;
+    height: 20px;
+    margin-right: .5rem;
+}
+
+@media screen and (max-width: 1024px) {
+
+}

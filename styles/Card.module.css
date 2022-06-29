@@ -1,0 +1,52 @@
+.card{
+    background-color: #f8f9fa;
+    width: 220px;
+    height: 180px;
+    padding: 0rem 1rem 1rem 1rem;
+    margin-top: 2rem;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: aqua; */
+}
+.header p{
+    font-size: 14px;
+    font-weight: 100;
+}
+.headline{
+    font-weight: 600;
+    font-size: 15px;
+}
+.desc{
+    font-weight: 300;
+    font-size: 15px;
+    margin-top: .4rem;
+}
+.name{
+    margin-top: .4rem;
+    font-weight: 200;
+    font-size: 15px;
+}
+/* .iconBox{
+    width: 15px;
+    height: 15px;
+    background-color: aqua;
+} */
+.starTry{
+    width: 20px;
+    height: 20px;
+    background-color: #00b67a;
+    position: relative;
+    margin-right: .1rem;
+}
+.starTry .icon{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.stars{
+    display: flex;
+}

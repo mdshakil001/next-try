@@ -1,0 +1,60 @@
+.products{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+}
+.filters_section{
+    width: 20%;
+    /* background-color: antiquewhite; */
+     height: 60vh;
+    overflow: hidden; 
+    position: sticky;
+    top: 8rem;
+    outline: none;
+}
+.gallary{
+    width: 78%;
+    /* background-color: aquamarine; */
+    /* display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 1.5rem; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.filters{
+    display: flex;
+    align-items: center;
+    /* background-color: aquamarine; */
+    margin-bottom: -1rem;
+}
+.filters h4 {
+    margin-left: .5rem;
+   /* margin-bottom: .5rem; */
+    font-weight: 400;
+    font-size: 20px;
+}
+.categories h5{
+    font-size: 18px;
+    font-weight: 400;
+    margin: 1rem 0rem 1.5rem 0rem;
+}
+.categories .option{
+    margin: .7rem 0rem;
+}
+.categories label {
+    margin-left: .7rem;
+    font-weight: 300;
+}
+.material h5{
+    font-size: 18px;
+    font-weight: 400;
+    margin: 1rem 0rem 1.5rem 0rem;
+}
+.material .option{
+    margin: .7rem 0rem;
+}
+.material label {
+    margin-left: .7rem;
+    font-weight: 300;
+}

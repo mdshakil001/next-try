@@ -1,0 +1,18 @@
+.container{
+    margin-top: -1rem;
+}
+.banner{
+    display: block;
+    width: 100%;
+    position: relative;
+    /* top: 1rem; */
+    z-index: -100000;
+}
+.subImg{
+    display: flex;
+    margin-top: 0.5rem;
+    justify-content: space-between;
+}
+.subImg img {
+    width: 49.6%;
+}

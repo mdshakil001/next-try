@@ -1,0 +1,99 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -.2rem;
+    /* padding: .1rem 0rem; */
+    /* background-color: aquamarine; */
+}
+.logo{
+    cursor: pointer;
+}
+.left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: 0px 60px; */
+}
+.left > :nth-child(odd){
+    margin-right: 1rem;
+}
+.left > :nth-child(even){
+    margin-right: 1rem;
+}
+.left > :nth-last-child(1){
+    margin-right: 0rem;
+}
+.search{
+    display: flex;
+    /* background-color: aqua; */
+    /* padding: 1rem; */
+    align-items: center;
+}
+.input{
+    padding: .5rem;
+    margin-right: .5rem;
+    outline: none;
+}
+/* .left:not(:last-child){
+    margin-right: 1rem;
+} */
+
+.barIcon{
+    display: none;
+}
+.sidebar{
+    display: none;
+}
+.closeSide{
+    display: none;
+}
+
+@media screen and (max-width: 1024px) {
+  .nav {
+    /* background-color: lightgreen; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .sidebar{
+    display: block;
+    width: 50%;
+    height: 100vh;
+    position: absolute;
+    top: -2rem;
+    left: -1rem;
+    background-color: #fff;
+}
+.closeSide{
+    display: block;
+    cursor: pointer;
+    margin-top: 1rem;
+    position: absolute;
+    top: -1.5rem;
+    left: 45%;
+}
+  .icon_logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.barIcon{
+    display: inline;
+    margin-right: 1rem;
+    cursor: pointer;
+}
+.left h4{
+   display: none;
+}
+.number{
+    display: none;
+}
+
+.left > :nth-child(odd){
+    margin-right: 0rem;
+}
+.left > :nth-child(even){
+    margin-right: 0rem;
+}
+}
